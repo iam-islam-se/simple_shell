@@ -2,9 +2,9 @@
 #define SHELL_H
 
 #include <stdlib.h>
+#include <sys/stat.h>
 #include <string.h>
 #include <stdio.h>
-#include <sys/stat.h>
 #include <errno.h>
 #include <sys/types.h>
 #include <unistd.h>

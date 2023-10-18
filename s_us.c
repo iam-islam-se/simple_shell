@@ -47,6 +47,7 @@ void execute_commandB7RISL(char **d_cd, int co_e)
 			exit(2);
 		}
 	}
+
 	if (co_e == P_COMB7RISL)
 	{
 		if (execve(check_pathB7RISL(d_cd[0]), d_cd, NULL) == -1)
@@ -55,6 +56,7 @@ void execute_commandB7RISL(char **d_cd, int co_e)
 			exit(2);
 		}
 	}
+
 	if (co_e == L_CB7RISL)
 	{
 		ff = get_funcB7RISL(d_cd[0]);
