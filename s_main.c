@@ -8,7 +8,7 @@
 
 
 
-int main(int argc __attribute__((unused)), char **argv)
+int main(int argc __attribute__((unused)), char **axx)
 {
 	char **cu_co = NULL;
 	int t, e_d = 0;
@@ -16,7 +16,7 @@ int main(int argc __attribute__((unused)), char **argv)
 
 	signal(SIGINT, ctrl_c_handlerB7RISL);
 
-	shell_nameB7RISL = argv[0];
+	shell_nameB7RISL = axx[0];
 
 	while (1)
 	{
