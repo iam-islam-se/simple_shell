@@ -2,7 +2,7 @@
 
 ## Tasks
 
-ISlam & Ba7r :)
+ISlam & Ba7r -->
 
 ### 0\. README, man, AUTHORS
 
