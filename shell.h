@@ -28,8 +28,8 @@ typedef struct mapp
 
 extern int statusB7RISL;
 extern char **ba7rwithislam;
-extern char *lsaffe;
 extern char *shell_nameB7RISL;
+extern char *lsaffe;
 extern char **environ;
 
 void remove_newlineB7RISL(char *);
