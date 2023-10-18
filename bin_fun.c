@@ -46,5 +46,7 @@ void quitB7RISL(char **id_cd)
 		}
 	}
 	else
+	{
 		printB7RISL("$: exit doesn't take more than one argument\n", STDERR_FILENO);
+	}
 }
