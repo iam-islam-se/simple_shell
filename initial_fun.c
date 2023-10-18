@@ -8,6 +8,7 @@ void initializerB7RISL(char **t_a, int e_cd)
 	if (e_cd == EL_COB7RISL || e_cd == P_COMB7RISL)
 	{
 		PIDB7R = fork();
+
 		if (PIDB7R == 0)
 		{
 			execute_commandB7RISL(t_a, e_cd);
