@@ -14,6 +14,7 @@ void non_interactiveB7RISL(void)
 			remove_newlineB7RISL(lsaffe);
 			remove_commentB7RISL(lsaffe);
 			ba7rwithislam = tokenizerB7RISL(lsaffe, ";");
+
 			for (z = 0; ba7rwithislam[z] != NULL; z++)
 			{
 				t_cand = tokenizerB7RISL(ba7rwithislam[z], " ");
