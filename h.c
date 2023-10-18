@@ -19,6 +19,7 @@ char **tokenizerB7RISL(char *i_s, char *Ba7r)
 	}
 
 	lac = _reallocB7RISL(lac, sizeof(*lac) * n_d, sizeof(*lac) * (n_d + 1));
+
 	lac[n_d] = NULL;
 
 	return (lac);
