@@ -23,6 +23,7 @@ char *_strcatB7RISL(char *dion, char *ue)
 	int len_dest = _strlenB7RISL(dion), n_e = _strlenB7RISL(ue);
 
 	w_sg = malloc(sizeof(*w_sg) * (len_dest + n_e + 1));
+
 	_strcpyB7RISL(dion, w_sg);
 
 	_strcpyB7RISL(ue, w_sg + len_dest);
