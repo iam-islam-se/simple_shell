@@ -2,7 +2,7 @@
 
 ## Tasks
 
-ISlam & Ba7r --> Nor
+ISlam & Ba7r --> Norway
 
 ### 0\. README, man, AUTHORS
 
